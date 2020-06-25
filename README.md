@@ -6,8 +6,8 @@ One of the major uses that we have for the Internet these days is through the us
 
 ## GOAL
 
-You are going to make a small version of Reddit. The initial idea of Reddit is that you get to post something and then people can up vote or down vote what you posted. If something is up voted enough it is "Trending". In our mini-Reddit, if a topic is down voted by a certain amount, the website should remove that post.
-![](https://cdn.glitch.com/945c67ca-a80c-4709-8265-ad042d08b625%2Fvotes.gif?v=1593095341291)
+You are going to make a small version of Reddit. The initial idea of Reddit is that you get to post something and then people can up vote or down vote what you posted. If something is up voted enough it is "Trending". In our mini-Reddit, if a topic is down voted by a certain amount, the website should remove that post.  
+![](https://media.giphy.com/media/j3Jnx8Ntntkf23keVx/giphy.gif)
 
 ## TASKS
 For today's project you should do the following:
