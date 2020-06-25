@@ -1,0 +1,56 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  color: #373fff;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+input {
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+
+#typeHere {
+  margin: 20px;
+}
+
+button {
+  background-color: #90EE90; /* Same green as the arrow */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+
+.posting {
+  margin: 20px;
+  border: solid;
+}
+
+#trending {
+  margin: 20px;
+  border: solid;
+}
+
+#votes {
+  padding-top: 40px;
+}

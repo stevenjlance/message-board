@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Message Board Posting!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!--  import Bootstrap    -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>
+      My Message Board
+    </h1>
+    <h3>
+      What's on your mind?
+    </h3>
+    <div class="posting">
+      <!--    Your text will go here    -->
+    </div>
+    <div class="container">
+      <div id="typeHere">
+        <input type="text" id="userInput" placeholder="What's on your mind?" />
+      </div>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-2">
+          <img
+            class="img-fluid"
+            id="upVote"
+            src="https://cdn.glitch.com/945c67ca-a80c-4709-8265-ad042d08b625%2FupArrpw.png?v=1592414479487"
+          />
+        </div>
+        <div class="col" id="votes">
+          <h1>0</h1>
+        </div>
+        <div class="col-2">
+          <img
+            class="img-fluid"
+            id="downVote"
+            src="https://cdn.glitch.com/945c67ca-a80c-4709-8265-ad042d08b625%2FdownArrow.png?v=1592414479540"
+          />
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <button class="post">
+        POST
+      </button>
+    </div>
+    <h1>
+      Trending Topics
+    </h1>
+    <div id="trending" class="row"></div>
+    <!-- import the webpage's javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
